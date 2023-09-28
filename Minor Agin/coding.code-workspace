@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../coding"
+		},
+		{
+			"path": "../Downloads/riya"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coding"
+	}
+}

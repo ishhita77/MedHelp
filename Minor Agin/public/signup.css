@@ -1,0 +1,64 @@
+.mobileInputContainer{
+    margin:20px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+    background-color: #727ff7; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.container{
+    position: relative;
+    left: 30px;
+}
+.first{
+    position: relative;
+    left: 30px;
+}
+p{
+    font-size:13px;
+    color:#7f8283;
+    font-style:"normal";
+}
+.forming-grp{
+    background-color:whitesmoke;
+    width:400px;
+    height:550px;
+}
+.inputs [type=text]{
+    margin:4px 0px;
+    padding:4px;
+   box-sizing: content-box;
+}
+.inputs [type=password]{
+    margin:4px 0px;
+    padding:4px;
+}
+body{
+   background-color: #e0e7e7;
+}
+
+
+/* 
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(bodyParser.json())
+
+app.post('/login',(req,res)=>{
+    res.send('The user emaail is '+req.body.email+' and password is '+req.body.password);
+});
+
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, 'public/login.html'));
+  }); */
+
